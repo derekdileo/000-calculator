@@ -47,7 +47,6 @@ public class Main {
 
         // Fibonacci
         System.out.println(Series.fibonacci(10) == 55);
-
-
+        
     }
 }

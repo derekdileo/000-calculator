@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="practice">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../out/artifacts/practice_jar/practice.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../practice/out/artifacts/practice_jar/practice.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
