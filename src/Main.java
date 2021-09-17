@@ -25,5 +25,18 @@ public class Main {
         System.out.println(Calculator.divide(10, 0) == -1); // Cannot divide by 0!
         System.out.println(Calculator.divide(-10, 2) == -5);
 
+        // Square
+        System.out.println(Calculator.square(5) == 25);
+        System.out.println(Calculator.square(-5) == 25);
+        System.out.println(Calculator.square(0) == 0);
+
+        // Square root
+        System.out.println(Calculator.squareRoot(25) == 5);
+        System.out.println(Calculator.squareRoot(-25) == -1); // Cannot sqrt negative number (imaginary)
+        System.out.println(Calculator.squareRoot(1) == 1);
+        System.out.println(Calculator.squareRoot(0) == 0);
+
+
+
     }
 }

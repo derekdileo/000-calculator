@@ -17,4 +17,18 @@ public class Calculator {
         }
         return -1;
     }
+
+    public static int square(int x) {
+        return x * x;
+    }
+
+    public static double squareRoot(int x) {
+        if (x >= 0) {
+            return Math.sqrt(x);
+        } else {
+            return -1;
+        }
+    }
+
+
 }
