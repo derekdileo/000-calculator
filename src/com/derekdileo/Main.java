@@ -37,6 +37,8 @@ public class Main {
         System.out.println(Calculator.squareRoot(-25) == -1); // Cannot sqrt negative number (imaginary)
         System.out.println(Calculator.squareRoot(1) == 1);
         System.out.println(Calculator.squareRoot(0) == 0);
+        
+        // These methods are defined in External Libraries > 'practice' library
 
         // nSum
         System.out.println(Series.nSum(4) == 10);
@@ -47,6 +49,6 @@ public class Main {
 
         // Fibonacci
         System.out.println(Series.fibonacci(10) == 55);
-        
+
     }
 }
