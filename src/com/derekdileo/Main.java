@@ -1,4 +1,6 @@
+package com.derekdileo;
 
+import com.derekdileo.mylibrary.Series;
 
 public class Main {
 
@@ -36,6 +38,15 @@ public class Main {
         System.out.println(Calculator.squareRoot(1) == 1);
         System.out.println(Calculator.squareRoot(0) == 0);
 
+        // nSum
+        System.out.println(Series.nSum(4) == 10);
+        System.out.println(Series.nSum(10) == 55);
+
+        // Factorial
+        System.out.println(Series.factorial(6) == 720);
+
+        // Fibonacci
+        System.out.println(Series.fibonacci(10) == 55);
 
 
     }
